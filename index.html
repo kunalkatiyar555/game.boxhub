@@ -2,95 +2,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="google-site-verification" content="48w3sJ3EB9mdpy-UQAT1l2z29bTfSEvQ7IhAuPglvGw" />
-  <title>GameBoxHub - Download Free Games</title>
-  <style>
-    body { font-family: Arial, sans-serif; margin: 0; background: #f2f2f2; }
-    header { background: #222; color: white; padding: 20px; text-align: center; }
-    .game-card {
-      background: white;
-      border-radius: 10px;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-      margin: 20px auto;
-      padding: 15px;
-      width: 90%;
-      max-width: 400px;
-      text-align: center;
-    }
-    .game-card img { width: 100%; border-radius: 10px; }
-    .download-btn {
-      margin-top: 10px;
-      padding: 10px 20px;
-      background: #007BFF;
-      color: white;
-      border: none;
-      border-radius: 8px;
-      font-size: 16px;
-      cursor: pointer;
-    }
-    footer {
-      background: #222;
-      color: white;
-      text-align: center;
-      padding: 10px;
-      margin-top: 40px;
-    }
-    .adsbygoogle {
-      display: block;
-      text-align: center;
-      margin: 20px 0;
-    }
-  </style>
-  <!-- AdSense Code -->
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5077941664863525" crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GameBoxHub</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1>🎮 GameBoxHub</h1>
-    <p>Top Games Download Center</p>
-  </header>
+  <h1>🎮 GameBoxHub – Download Free Games</h1>
+  <input type="text" id="searchInput" placeholder="Search games..." />
+  <div id="gameList" class="game-list"></div>
 
-  <!-- Ad Banner -->
-  <ins class="adsbygoogle"
-       style="display:block"
-       data-ad-client="ca-pub-5077941664863525"
-       data-ad-slot="1234567890"
-       data-ad-format="auto"
-       data-full-width-responsive="true"></ins>
-  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-
-  <div class="game-card">
-    <img src="https://upload.wikimedia.org/wikipedia/en/e/e3/Free_Fire_icon.png" alt="Free Fire">
-    <h2>Free Fire</h2>
-    <p>Size: 600MB | Battle Royale</p>
-    <button class="download-btn">Download Game</button>
-  </div>
-
-  <div class="game-card">
-    <img src="https://upload.wikimedia.org/wikipedia/en/8/88/PUBG_Mobile_logo.png" alt="PUBG Mobile">
-    <h2>PUBG Mobile</h2>
-    <p>Size: 1.2GB | Battle Royale</p>
-    <button class="download-btn">Download Game</button>
-  </div>
-
-  <div class="game-card">
-    <img src="https://upload.wikimedia.org/wikipedia/en/5/51/Minecraft_cover.png" alt="Minecraft">
-    <h2>Minecraft</h2>
-    <p>Size: 500MB | Sandbox</p>
-    <button class="download-btn">Download Game</button>
-  </div>
-
-  <div class="game-card">
-    <img src="https://upload.wikimedia.org/wikipedia/en/f/f9/Ludo_King.png" alt="Ludo King">
-    <h2>Ludo King</h2>
-    <p>Size: 60MB | Board Game</p>
-    <button class="download-btn">Download Game</button>
-  </div>
-
-  <footer>
-    <p>© 2025 GameBoxHub. All rights reserved.</p>
-  </footer>
+  <script src="games.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
